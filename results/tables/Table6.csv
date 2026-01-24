@@ -1,0 +1,5 @@
+CWE_ID,CWE_Name,Tool_Issue,ChatGPT,Claude,DeepSeek
+CWE-338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Clang-Tidy: clang-analyzer-security.insecureAPI.rand,0,2,6
+CWE-457,Use of Uninitialized Variable,Cppcheck: uninitStructMember,1,2,1
+CWE-457,Use of Uninitialized Variable,Cppcheck: uninitvar,4,1,1
+CWE-681,Incorrect Conversion between Numeric Types,Clang-Tidy: bugprone-narrowing-conversions,10,97,132

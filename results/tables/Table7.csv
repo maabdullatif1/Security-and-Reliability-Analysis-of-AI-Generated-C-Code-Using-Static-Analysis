@@ -1,0 +1,5 @@
+CWEID,CWE Name,Tool,Issue Type,ChatGPT,Claude,DeepSeek,ECC Domain,ECC Subdomain,Mapping Rationale,Confidence (H/M/L)
+CWE-338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Clang-Tidy,clang-analyzer-security.insecureAPI.rand,0,2,6,Cybersecurity Defence,2-8 Cryptography,Use of weak/non-cryptographic randomness can undermine security properties.,H
+CWE-457,Use of Uninitialized Variable,Cppcheck,uninitStructMember,1,2,1,Cybersecurity Defence,2-7 Data and Information Protection,Uninitialized data can lead to undefined behaviour and unintended data exposure or corruption.,H
+CWE-457,Use of Uninitialized Variable,Cppcheck,uninitvar,4,1,1,Cybersecurity Defence,2-7 Data and Information Protection,Uninitialized data can lead to undefined behaviour and unintended data exposure or corruption.,H
+CWE-681,Incorrect Conversion between Numeric Types,Clang-Tidy,bugprone-narrowing-conversions,10,97,132,Cybersecurity Defence,2-10 Vulnerability Management,Incorrect numeric conversions may cause incorrect validation or unsafe bounds handling and should be treated as a weakness requiring identification and remediation.,M

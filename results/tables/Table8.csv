@@ -1,0 +1,16 @@
+﻿ECC Domain,ECC Subdomain,ChatGPT,Claude,DeepSeek,Issue Types,General Rationale
+Cybersecurity Defence,2-3 Information Systems and Information Processing Facilities Protection,612,3468,2166,missingIncludeSystem,"These findings mainly reflect build, configuration, and general code-quality issues that can affect reliability and system robustness."
+,,,,,performance-avoid-endl,
+,,,,,ctuOneDefinitionRuleViolation,
+,,,,,useStlAlgorithm,
+,,,,,unusedFunction,
+,,,,,noExplicitConstructor,
+,,,,,returnByReference,
+,,,,,performance-enum-size,
+Cybersecurity Defence,2-10 Vulnerability Management,68,254,257,bugprone-exception-escape,These findings indicate coding patterns that can lead to defects and should be identified and fixed early.
+,,,,,bugprone-easily-swappable-parameters,
+,,,,,bugprone-branch-clone,
+,,,,,bugprone-switch-missing-default-case,
+,,,,,bugprone-empty-catch,
+,,,,,bugprone-unused-local-non-trivial-variable,
+,,,,,clang-analyzer-security.FloatLoopCounter,

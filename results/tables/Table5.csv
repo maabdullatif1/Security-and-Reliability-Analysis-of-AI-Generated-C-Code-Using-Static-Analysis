@@ -1,0 +1,7 @@
+Tool,Model,Runs (n),Mean,Std. Dev.,Min,Max
+Cppcheck,ChatGPT,150,3.64,1.65,1,10
+Cppcheck,Claude,150,14.59,7.13,5,63
+Cppcheck,DeepSeek,150,18.23,7.60,7,67
+Clang-Tidy,ChatGPT,150,1.12,1.19,0,6
+Clang-Tidy,Claude,150,12.95,9.26,1,46
+Clang-Tidy,DeepSeek,150,5.41,4.14,0,20
