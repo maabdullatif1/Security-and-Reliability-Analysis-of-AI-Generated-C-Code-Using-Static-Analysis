@@ -15,15 +15,17 @@ claude.py
 
 deepseek.py
 
+gemini.py
+
 results/
 Exported tables and summary outputs:
 
-tables/ → CSV files for Tables 3–8
+tables/ → CSV files for Tables 3–10
 
 summaries/ → Cppcheck and Clang-Tidy summary outputs
 
 figures/
-Figures used in the paper (Figure 1–5)
+Figures used in the paper (Figure 1–6)
 
 Requirements
 
@@ -42,6 +44,7 @@ Run the script for the target model:
 python3 code/chatgpt.py
 python3 code/claude.py
 python3 code/deepseek.py
+python3 code/gemini.py
 
 
 Each script generates C++ programs for the defined tasks and stores outputs for analysis.
